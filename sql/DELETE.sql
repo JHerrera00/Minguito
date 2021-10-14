@@ -1,0 +1,4 @@
+DELETE  FROM AULA where planta = 2;
+DELETE FROM USUARIO where matriculado = 'Informática';
+DELETE FROM CURSO WHERE horas = 400;
+DELETE FROM EDIFICIO WHERE NOMBRE LIKE "PEPITO";
