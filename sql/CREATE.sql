@@ -14,3 +14,9 @@ CREATE TABLE USUARIO (
     matriculado     VARCHAR2(25)
 );
 
+CREATE TABLE CURSO (
+    curso INTEGER PRIMARY KEY,
+    nombre VARCHAR (20),
+    descripcion VARCHAR (30),
+    horas VARCHAR (80)
+);
